@@ -57,7 +57,7 @@ window.addEventListener('load', function() {
                 const dist = Math.sqrt(dx**2 + dy**2);
                 if (dist < obstacle.width/2 + this.width/2 - 50) {
                     gameOver = true;
-                    window.location.reload();
+                    // window.location.reload();
                 }
             });
             this.y += this.vy;
